@@ -1,0 +1,26 @@
+{
+  "name": "parseServer",
+  "version": "1.0.0",
+  "description": "An example Parse API server using the parse-server module",
+  "main": "parseServer.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/poseidonsw/parseServer"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "~4.2.x",
+    "kerberos": "~0.0.x",
+    "parse": "~1.6.12",
+    "parse-server": "~2.0",
+    "nconf": "0.8.2",
+    "winston": "2.1.1"
+
+  },
+  "scripts": {
+    "start": "node parseServer.js"
+  },
+  "engines": {
+    "node": ">=4.1"
+  }
+}

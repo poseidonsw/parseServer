@@ -1,0 +1,8 @@
+{
+    "port" : 1337,
+    "database": "todoApp",
+    "myCloud": "./node_modules/parse-server/cloud/main.js",
+    "myAppId": "30YTMhba7jAuhgCYff03bmTh38EnYKza0WLpxh7j",
+    "myMasterKey": "eyUIALK9EwH8sgfxCjgw4pP9eJv1c1qicEyVnRzR",
+    "parseMount": "/1"
+}
