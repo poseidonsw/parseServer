@@ -29,5 +29,5 @@ app.get('/', function(req, res) {
 
 var port = config.get('port');
 app.listen(port, function() {
-    console.log('server running on port ' + port + '.');
+    log.info('server running on port ' + port + '.');
 });
