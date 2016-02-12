@@ -7,7 +7,7 @@ var config  = require('./lib/config');
 var ParseServer = require('parse-server').ParseServer;
 
 var api = new ParseServer({
-  databaseURI: 'mongodb://104.236.146.73:27017/'+config.get('database'),
+  databaseURI: 'mongodb://localhost:27017/'+config.get('database'),
   //cloud: config.get('myCloud'),
   appId: config.get('myAppId'),
   masterKey: config.get('myMasterKey')
